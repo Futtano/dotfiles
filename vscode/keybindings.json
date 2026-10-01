@@ -1,0 +1,8 @@
+[
+  {
+    "key": "ctrl+shift+6",
+    "command": "vscode-neovim.send",
+    "args": "<C-^>",
+    "when": "editorTextFocus && neovim.init && neovim.mode != insert && editorLangId not in neovim.editorLangIdExclusions"
+  }
+]

@@ -1,0 +1,20 @@
+# Local overrides and secrets
+local/
+*.local
+.env
+.env.*
+*.pem
+*.key
+id_rsa*
+id_ed25519*
+# Generated state
+.cache/
+.local/
+node_modules/
+__pycache__/
+*.log
+*.swp
+*.swo
+.DS_Store
+# LazyVim UI selections/news state; managed extras live in lazy.lua.
+home/.config/nvim/lazyvim.json

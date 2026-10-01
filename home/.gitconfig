@@ -1,0 +1,14 @@
+[init]
+    defaultBranch = main
+[core]
+    autocrlf = false
+    editor = nvim
+    excludesFile = ~/.config/git/ignore
+[fetch]
+    prune = true
+[pull]
+    ff = only
+[diff]
+    algorithm = histogram
+[include]
+    path = ~/.config/git/local
